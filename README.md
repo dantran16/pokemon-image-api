@@ -24,3 +24,4 @@ useEffect(() => {
     })
 }, [])
 ```
+![image](https://github.com/dantran16/pokemon-image-api/assets/46572878/7edc2a36-5c8f-4d76-b97d-5c066d62c389)
