@@ -7,7 +7,7 @@ You can send a HTTP request call to one of the two endpoints to get information.
 * /pokemon/:pokedexEntry - based on Pokedex entry, it will return a JSON of that Pokemon
 
 Example of sending a request and receiving data on a React app
-```
+```js
 const [pokemonList, setPokemonList] = useState([])
 
 // Sending a request
