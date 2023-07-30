@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.mjs",
-    "seed": "node seed.mjs"
+    "seed": "node seed.mjs",
+    "init": "node src/helper/initialize.mjs"
   },
   "author": "",
   "license": "MIT",

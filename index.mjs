@@ -8,6 +8,14 @@ const PORT = process.env.PORT || 3000;
 
 connectMongoose().catch(err => console.log(err))
 
+server.get('/', (req, res) => {
+    res.send(`
+        <h1>Pokemon Image API</h1>
+        <p>/pokemon - JSON File for all Pokemon in this database</p>
+        <p>/pokemon/:pokedexEntry - Get a specific Pokemon 
+    `);
+})
+
 server.get('/pokemon', async (req, res) => {
     try{
         const pokemonData = await PokemonImage.find()
